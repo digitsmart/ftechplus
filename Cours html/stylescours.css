@@ -1,0 +1,42 @@
+#a, #b, #c, #d {
+    display:none;
+    font-size: 10px;
+    }
+#article{
+    display: auto;
+    overscroll-behavior-x: auto;
+    border: 2px solid blue;
+   
+	
+}
+#article p{
+    font-size: 10px;
+}
+section p{
+    font-size: 12px;
+}
+#bar{
+    display: flex;
+    justify-content: space-between;
+}
+#bar .btn{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+
+}
+article{
+    display: auto;
+    overscroll-behavior-x: auto;
+    border: 2px solid blue;
+    height: 350px;
+	overflow: auto;
+	overflow-y: scroll;
+
+}
+article p span{
+    font-size: 12px;
+}
+article strong{
+    font-size: 14px;
+}
