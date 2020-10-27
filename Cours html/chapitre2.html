@@ -37,24 +37,25 @@
                                 <div class="ttr_home_html_column00" style="background-color: cornflowerblue;">
                                     <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
                                     <div class="html_content"><p><br style="font-family:'Signika','Arial';font-size:0.857em;" /></p>
-                                        <video id="player" controls>
-                                            <source src="videos/chapitre1.mp4" type="video/mp4">
+                                        <video style="display: none;" id="player" controls>
+                                            <source src="" type="video/mp4">
                                         </video>
                                         <audio id="player">
                                             <h1>Le premier chapitre</h1>
-                                            <source src="audio/premier.m4a" type="audio/mp4"
-                                            <source src="audio/premier.mp3" type="audio/mp3">
-                                            <source src="audio/premier.ogg" type="audio/ogg">
+                                            <source src="" type="audio/mp4"
+                                            <source src="" type="audio/mp3">
+                                            <source src="" type="audio/ogg">
                                         </audio>
                                         <div id="audio">
                                             <h1 style="display: none;">Le premier chapitre</h1>
                                             <audio id="player" src="sound.mp3"></audio>
-                                            <div style="display: flex;">
+                                            <div style="display: flex; display: none;" >
                                                 <button onclick="document.getElementById('player').play()">Play</button>
                                                 <button onclick="document.getElementById('player').pause()">Pause</button>
                                                 <button onclick="document.getElementById('player').volume+=0.1">V +</button>
                                                 <button onclick="document.getElementById('player').volume-=0.1">V -</button>
                                             </div>
+                                            <img src="images/intro.jpg">
                                         </div> 
                                         <p style="margin:0.1em 0em 0em 0.5em;"></p>
                                         <div style="display: flex; margin: auto; display: none;">
@@ -90,44 +91,70 @@
                             <div class="post_column col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div class="ttr_home_html_column00" style="background-color: rgb(255, 255, 255);">
                                     <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                                    <div id="article" class="html_content" style="border: 2px solid;"><p></p>
+                                    <div id="article" class="html_content" style="border: 2px solid; overflow: hidden;"><p></p>
                                       <article>
-                                        <p style="font-size: 12px;"> Dans ce chapitre , nous allons voir comment 
+                                        <p style="font-size: 12px; text-align: justify;"> Dans ce chapitre , nous allons voir comment 
                                             créer un dossier et des sous dossiers.</p><br>
                                              
-                                             <p style="font-size: 12px;"><strong>Pourquoi un dossier et des sous dossiers?</strong><br>
-                                             Lorsque vous creer un web site, c'eat exactement un projet que vous creez.</p>
+                                             <p style="font-size: 12px; text-align: justify;">
+                                                <strong>Pourquoi un dossier et des sous dossiers?</strong><br>
+                                             Lorsque vous créer un web site, c'est exactement un projet que vous créez.</p>
                                              <br>
                                              <strong>un exemple :</strong> 
-                                            <p style="font-size: 12px;"> Vous avez un projet en tête et vous voulez le 
-                                             mettre sur des papier, pour cela il vous faut un 
-                                             enveloppe pour mieux gerer vos papiers 
-                                             et c'est de meme pour un site web.</p><br>
+                                            <p style="font-size: 12px; text-align: justify;"> 
+                                                Vous avez un projet en tête et vous voulez le 
+                                             mettre sur des papiers, pour cela, il vous faut un 
+                                             enveloppe pour mieux gérer vos papiers 
+                                             et c'est de même pour un site web.</p><br>
                                              
-                                             <p style="font-size: 12px;">Creer un dossier pour votre site web .
+                                             <p style="font-size: 12px; text-align: justify;">
+                                                Créer un dossier pour votre site web .
                                              Ce dossier doit contenir le nom de votre 
                                              site web pour pouvoir le trouver si facilement.</p><br>
                                              
                                              <strong> un dossier 📁</strong>
-                                             <p style="font-size: 12px;">📁 www.digitsmart.com<br>
-                                             Le dossier prinsipal porte le nom de mon site 
+                                             <p style="font-size: 12px; text-align: justify;">📁 www.ftechplus.netlify.app<br>
+                                             Le dossier prinsipal porte le nom de votre site 
                                              web et a l'interieur de mon dossier, nous 
-                                             allons creer des sous dossiers.
-                                              Les sous dossiers servent a gerer tout 
+                                             allons créer des sous dossiers.
+                                              Les sous dossiers servent a gérer tout 
                                               ce que vous allez mettre sur votre site.</p><br>
                                              
                                              <strong>Regarder bien cet exemple :</strong><br>
-                                             <span>📁www.digitsmart.rf.gd</span> <em>(est le dossier principale)</em>
-                                             <li style="margin-left: 0.8em;">📂audios</li>
-                                             <li style="margin-left: 0.8em;">📂videos</li>
-                                             <li style="margin-left: 0.8em;">📂images</li>
-                                             <li style="margin-left: 0.8em;">📂pages</li>
+                                             <span style="font-size: 12px; text-align: justify;">
+                                                📁www.ftechplus.netlify.app</span> 
+                                                <em>(est le dossier principale)
+                                                 (les autres sont des sous-dossiers).
+                                                </em>
+                                             <ul>
+                                                <li style="margin-left: 1em;">📂audios</li>
+                                                <li style="margin-left: 0.8em;">📂videos</li>
+                                                <li style="margin-left: 0.8em;">📂images</li>
+                                                <li style="margin-left: 0.8em;">📂pages</li>
+                                             </ul>
+                                             
                                              
                                              En créant des dossiers et des sous dossiers, évitez de mettre les accents.
                                              <br>
+                                             <p style="font-size: 12px; text-align: justify;">
+                                                 Maintenant, pour commener a créer votre premier page web sur android, 
+                                                 il vous faut
+                                             un éditeur de texte, une application qui est capable de lire vos codes</p>
 
+                                             <p></p>
+
+                                             <p>pour ce cours nous allons utiliser un éditeur de texte gratuit
+                                                anWriter free html et css,clitquer sur le boutton pour le télécharger</p>
                                             <p>
-                                    
+                    
+                                                <center><button><a href="http://gestyy.com/e0JLFH">Télécharger anWriter free html et css</a></button></center>
+                                              <br> <p><strong>Les navigateurs</strong><br>
+                                                Le navigateur est le programme qui vouspermet de voir les sites web. 
+                                                Son travailest de lire le code html et css pour affichez un écranvisuel a l'écran.
+                                                <br>
+                                                <strong>Pour les navigateurs,on a:</strong><br>
+                                                Chrome , Firefox, opera et de meme pour androide </p>
+                                                <hr>
                                                 <p><a href="#nogo" onclick="document.getElementById('d').style.display = 'block'; this.style.display = 'block';">
                                                 <strong>Resumé du cours</strong><br></a></p>
                                                 <div id="d">
@@ -148,7 +175,7 @@
                                                 <div id="bar">
                                                     
                                                         <div>
-                                                            <a HREF="cours1.html" target="_self" class="btn">
+                                                            <a HREF="chapitre1.html" target="_self" class="btn">
                                                                 Chapitre précédent
                                                             </a>
                                                         </div>
@@ -159,7 +186,7 @@
                                                             </a>
                                                         </div>
                                                                <div>
-                                                                <a HREF="toixiemes_cours.html" target="_self" class="btn">
+                                                                <a HREF="#" target="_self" class="btn">
                                                                      j'ai terminé ce chapitre
                                                                 </a>
                                                             </div>
