@@ -26,12 +26,11 @@ section p{
 
 }
 article{
-    display: auto;
-    overscroll-behavior-x: auto;
-    border: 2px solid blue;
+    overscroll-behavior-y: auto;
     height: 350px;
-	overflow: auto;
-	overflow-y: scroll;
+	overflow-y: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
 
 }
 article p span{
