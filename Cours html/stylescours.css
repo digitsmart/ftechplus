@@ -27,7 +27,7 @@ section p{
 }
 article{
     overscroll-behavior-y: auto;
-    height: 350px;
+    height: auto;
 	overflow-y: auto;
     overflow-y: scroll;
     overflow-x: hidden;
