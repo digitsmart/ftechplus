@@ -94,7 +94,7 @@ pointer-events:auto;
 }
 .contact .ttr_block_content, .contact .ttr_block_content p 
 {
-font-size:14px !important;
+font-size:12px !important;
 }
 .contact .html_content a:hover, .html_content a:focus
 {
@@ -1088,7 +1088,7 @@ font-size:14px !important;
 }
  .ttr_title_position 
 {
-top:60px;
+top:30px;
 position:absolute;
 left: 43.18%;
 right:auto;

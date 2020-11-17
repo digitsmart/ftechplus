@@ -80,7 +80,7 @@ video{
 	display: block;
 }
 audio { 
-	margon-top:1em;
+	margin-top:1em;
   width: 100%; 
   box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
   border-radius: 90px;
