@@ -14,7 +14,6 @@
     <body>
         <div class="main">
             <div id="content">
-                <progress></progress>
                        <!--section model-->
                        <section id="a" style="display: none;">
                         <!--table de matiere-->
@@ -60,14 +59,28 @@
                                     <li>Créer votre premier projet<span id="point2" class="point"><p>◄</p></span></li>
                                     <li>Création de dossier du projet<span id="point3" class="point"><p>◄</p></span></li>
                                     <li>Base du langage html<span id="point4" class="point"><p>◄</p></span></li>
-                                    
+                                    <li>Squelette d’une page HTML<span id="point5" class="point"><p>◄</p></span></li>
                                     <br>
                                     <li>Niveau 1 : 5 chapitres</li>
                                 </ul>
                             </div>
-                            <div class="img">
+                            <div class="img" id="imgs">
                                 <img src="images/img1.png">
+                                <button onclick="myFunction()">Télécharger N1</button>
                             </div>
+                            <div id="myDIV">
+                                <div id="btnform"> <button onclick="myClose()">&times;</button></div>
+                                <p class="modal__paragraph"><!-- Static- Please don't do anything here-->
+                                  <script type="text/javascript">var submitted=false;</script>
+                                  <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='https://drive.google.com/uc?export=download&id=1cM3G2Im2Wc51M_SAh5-7oSPMNWK7M8rg';}"></iframe>
+                                  <!--My Form-->
+                                  <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdWCryQSD8DlAiFX5Vwpl1yybtwsu1q4Su5jnTfLrj5U8PeMA/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true" class="myform">
+                                      <input type="text" placeholder="Your Name" name="entry.1678085320" required><br/>
+                                      <input type="text" placeholder="Email ID" name="entry.1318168670" required><br/>
+                                      <input class="btn" type="submit" value="Submit">
+                                  </form>
+                                  </p>
+                              </div>
                             
                             
                         </div>
@@ -79,6 +92,7 @@
                             <button onclick="ab()">2</button>
                             <button onclick="ac()">3</button>
                             <button onclick="ad()">4</button>
+                            <button onclick="ae()">5</button>
                         </div>
                     </div>
                     <article id="aa">
@@ -336,38 +350,76 @@
                 </section>
                 <!--fin section chapitre -->
 
-                 <!--section model-->
-                 <section id="a" style="display: none;">
-                    <!--table de matiere-->
-                    <div class="video">
-                        <h1>Programmation web en html et css</h1>
-                        <div style="display: flex;">
-                            <div class="ul">
-                                <ul>
-                                    <ul>
-                                        <li><g>Introduction</g></li>
-                                    </ul>
-                                    <li>Le but de ce cours</li>
-                                    <li>Le html et le css</li><br>
-                                    <li>Niveau 1 : 5 chapitres</li>
-                                </ul>
-                            </div>
-                            <div class="img">
-                                <img src="images/img1.png">
-                            </div>  
-                        </div>
-                    </div>
-                    <!--fin table de matire-->
-                    <div class="chapitre">
-                        <h1 id="h1-1"></h1>
-                    </div>
-                    <article>
+                 <!--section chapitre 4-->
+                <section id="a">
+                    <article id="ee">
+                        <strong>Squellette minimal par defaut d’une page html</strong><hr>
+                        <p>
+                            Dans allons les qui compose l’esquellette par defaut d’une 
+                            page html et il sont tres important, car sans eux vous ne 
+                            pourrex pas créer votre page web.
+                        </p><br>
+                        <p>Voici la structure minimale d’une page HTML 5 : </p>
+                        <ul>
+                            <strong>
+                            <li>&lt;html&gt;</li>
+                            <ul>
+                                <li>&lt;head&gt;<br></li>
+                                <li>&lt;/head&gt;<br></li>
+                                <li>&lt;body&gt;</li><br>
+                                <li>&lt;/body&gt;</li>
+                            </ul>
+                            <li>&lt;/html&gt;</li>
+                        </strong>
+                        </ul>
+
+                        <p>
+                            La balise &lt;html&gt; matérialise le début 
+                            du document HTML, et la balise &lt;html&gt;
+                            la fin de ce document.
+                        </p>
+
+                        <p>
+                            Les balises &lt;head&gt; et &lt;/head&gt; délimitent l’en-tête du document.
+                             Vous verrez ce qui peut être placé entre ces deux balises dans une autre rubrique.<br><br>
+                        </p> 
+                            Enfin, les balises <strong> &lt;body&gt; et &lt;/body&gt;</strong> 
+                            délimitent le corps du document. Tout ce qui est écrit entre ces deux 
+                            balises apparaîtra dans le navigateur Web.<br><br>
+                        <p> 
+                            Maintenant, pour enregistrer cette page, dans anWriter frre html, cliquer 
+                            sur le bouton « sauvegarder » et une va apparaitre « nommer votre page » 
+                            avec l’extention « .html » sélectionner votre dossier principal et cliquer sur « ok ».<br>  
+                        </p>
+                        <img src="images/html1.jpg"  style="height: 130px;">
+
+                        <p>
+                            <strong> Il existe deux façon de visualiser votre projet</strong>
+                            1- Utiliser l’application :<br>
+                                Pour visualiser votre projet directement par l’application, 
+                                cliquer sur le bouton au-dessous, ca vous permet de voir votre travail en 
+                                temp réel et plus rapide.
+                        </p>
+                        <img src="images/html2.jpg"  style="height: 150px;">
+                        <p>
+                            Comme vous pouvez le voir, rien ne s’affiche. Entrer du texte 
+                            entre les balises <body> et </body> et appuyer sur le même bouton 
+                            et vous verrez votre texte.<br><br>
+
+                            2- Utiliser un navigateur
+                                Aller dans le dossier ou vous avez enregistré votre page
+                                 html  et cliquer sur la page que vous avez enregistré 
+                                 et on va vous demander avec quelle application que vous
+                                  voulez l’ouvrir cliquer sur un navigateur.
+                        </p>
+                        <img src="images/html3.jpg"  style="height: 150px;">
+
+
                         
                     </article>
                 </section>
                 <!--fin section chapitre 1-->
             </div>
-           
         </div>
             <script>
                 
