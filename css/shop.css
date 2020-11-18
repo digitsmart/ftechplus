@@ -11,6 +11,9 @@ h1{
 p{
     font-size: 12px;
     text-align: justify;
+    color: black;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
 }
 img{
     width: 100%;
@@ -26,6 +29,13 @@ li{
     width: 99.80%;
     margin: auto;
 
+}
+article li{
+    color: black;
+    font-size: 12;
+    display: inline;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
 }
 progress{
     height: auto;
@@ -96,6 +106,8 @@ section{
     -webkit-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.85); 
     box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.85);
     border:2px solid blue;
+    transition: 1s ease;
+    animation: 2s;
     
 }
 
@@ -109,6 +121,8 @@ section{
     background-color: white;
     -webkit-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.85); 
     box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.85);
+    transition: 1s ease;
+    animation: 2s;
     
 }
 #cc{
@@ -122,6 +136,8 @@ section{
     background-color: white;
     -webkit-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.85); 
     box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.85);
+    transition: 1s ease;
+    animation: 2s;
    
 }
 
@@ -142,6 +158,23 @@ section{
     border:2px solid yellow;
     -webkit-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.85); 
     box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.85);
+    transition: 1s ease;
+    animation: 2s;
+   
+}
+
+#ee{
+    display: none;
+    margin: auto;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    width: 98%;
+    background-color: white;
+    border:2px solid green;
+    -webkit-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.85); 
+    box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.85);
+    transition: 1s ease;
+    animation: 2s;
    
 }
 button:focus{
@@ -153,7 +186,7 @@ button:focus{
     display: flex;
     width: auto;
     height: auto;
-    margin: auto;
+ 
 
    
 }
@@ -171,6 +204,9 @@ button:focus{
 #point4{
     display: none;
 }
+#point5{
+    display: none;
+}
 
 article{
     width: 100%;
@@ -183,3 +219,59 @@ article{
     box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.85);
   
 }
+
+
+#front_page_blur{
+    transition: 1s ease;
+    animation: 2s;
+    }
+
+    article img {
+        padding: 1px;
+        transition: transform .2s; /* Animation */
+        width: 100%;
+        height: 200px;
+        margin: 0 auto;
+      }
+      
+      article img:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+      #myDIV{
+          border: 1px solid;
+          border-radius: 15px;
+          background-color: black;
+          margin-right: 1em;
+             width: 400px;
+          height: 130px;
+          display: none;
+          overflow: hidden;
+          
+      }
+      #btnform{
+          background-color: orange;
+          width: 100%;
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px;
+          border-bottom-left-radius: 0px;
+          border-bottom-right-radius: 0px;
+          margin-top: 0px;
+          margin-left: 0px;
+      }
+      #btnform, input{
+            margin: 0.4em;
+            margin-bottom: 1px;
+            width: 93%;
+      }
+      #btnform, .btn{
+        width: 100%;
+  }
+      #btnform button{
+          background-color: blue;
+          color: white;
+          border: none;
+          border-top-left-radius: 15px;
+          border-top-right-radius: 0px;
+          
+      }
+
