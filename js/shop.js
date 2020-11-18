@@ -69,7 +69,7 @@ function aa1() {
     var pb = document.getElementById("point2");
     var pc = document.getElementById("point3");
     var pd = document.getElementById("point4");
-    var pe = document.getElementById("point4");
+    var pe = document.getElementById("point5");
     if (b.style.display === "none") {
       b.style.display = "block";
       a.style.display = "none";
@@ -161,8 +161,8 @@ function aa1() {
       e.style.display = "none";
       pa.style.display = "none";
       pd.style.display = "block";
-      pd.style.display = "none";
-      pd.style.display = "none";
+      pb.style.display = "none";
+      pc.style.display = "none";
       pe.style.display = "none";
     }
   }
@@ -185,10 +185,10 @@ function aa1() {
       c.style.display = "none";
       d.style.display = "none";
       pa.style.display = "none";
-      pd.style.display = "block";
+      pd.style.display = "none";
       pb.style.display = "none";
       pc.style.display = "none";
-      pe.style.display = "none";
+      pe.style.display = "block";
     } else {
       e.style.display = "block";
       a.style.display = "none";
