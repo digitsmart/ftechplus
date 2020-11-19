@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet"  href="../css/bootstrap.css" type="text/css" media="screen"/>
     <link rel="stylesheet"  href="../css/shop.css"  type="text/css" media="screen"/>
+    <link rel="stylesheet"  href="../css/question.css"  type="text/css" media="screen"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script type="text/javascript" src="../js/totop.js"></script>
@@ -14,37 +15,16 @@
     <body>
         <div class="main">
             <div id="content">
-                       <!--section model-->
-                       <section id="a" style="display: none;">
-                        <!--table de matiere-->
-                        <div class="video">
-                            <h1>Programmation web en html et css</h1>
-                            <div style="display: flex;">
-                                <div class="ul">
-                                    <ul>
-                                        <ul>
-                                            <li><g>Introduction</g></li>
-                                        </ul>
-                                        <li>Le but de ce cours</li>
-                                        <li>Le html et le css</li><br>
-                                        <li>Niveau 1 : 5 chapitres</li>
-                                    </ul>
-                                </div>
-                                <div class="img">
-                                    <img src="images/img1.png">
-                                </div>  
-                            </div>
-                        </div>
-                        <!--fin table de matire-->
-                        <div class="chapitre">
-                            <h1 id="h1-1"></h1>
-                        </div>
-                        <article>
-                            
-                        </article>
-                        <div class="bar-btn"><center><button>Suivre le deuxiemes chapitre</button></center></div>
-                    </section>
-                    <!--fin section chapitre 1-->
+                        <!--section model-->
+                 <section id="a" style="display: none;">
+                    <div class="chapitre">
+                        <h1 id="h1-1"></h1>
+                    </div>
+                    <article>
+                        
+                    </article>
+                </section>
+                <!--fin section chapitre 1-->
                 <!--section introduction-->
                 <section id="a"> 
                     <div class="video" id="m1">
@@ -60,6 +40,7 @@
                                     <li>Création de dossier du projet<span id="point3" class="point"><p>◄</p></span></li>
                                     <li>Base du langage html<span id="point4" class="point"><p>◄</p></span></li>
                                     <li>Squelette d’une page HTML<span id="point5" class="point"><p>◄</p></span></li>
+                                    <li>Bien organiser votre texte<span id="point6" class="point"><p>◄</p></span></li>
                                     <br>
                                     <li>Niveau 1 : 5 chapitres</li>
                                 </ul>
@@ -93,6 +74,8 @@
                             <button onclick="ac()">3</button>
                             <button onclick="ad()">4</button>
                             <button onclick="ae()">5</button>
+                            <button onclick="af()">6</button>
+                            <button onclick="ag()" id="ag">7</button>
                         </div>
                     </div>
                     <article id="aa">
@@ -416,6 +399,136 @@
 
 
                         
+                    </article>
+                </section>
+                <!--fin section chapitre 4-->
+
+                 <!--chapitre-->
+                 <section id="a">
+                
+                    <article id="ff">
+                        <h1 style="color: blue;">Bien Organiser votre texte</h1>
+                        <ul>
+                            <li>comment rédiger des paragraphes ;</li>
+                            <li>comment structurer sa page avec les titres ;</li>
+                            <li>comment donner de l'importance à certains mots de son texte ;</li>
+                            <li>comment organiser les informations sous forme de listes.</li>
+                        </ul>
+                        <p>
+                                Dans ce chapitre nous allons voire
+                                Les Paragraphes
+                                Pour ecrire du texte dans une page web 
+                                on utilise les balise « &lt;p&gt;&lt;p&gt; », 
+                                on met du texte a l’interieur de la balise &lt;p&gt;
+                                texte &lt;p&gt;. P est l’abreviation de paragraphe
+                        </p>
+                        <img src="images/paragraphe.png">
+                        <p>
+                            Comme je vous l'ai dit au chapitre précédent, on écrit le 
+                            contenu du site web entre les balises &lt;body>&gt;&lt;body>&gt;  .<br><br>
+
+                            Il nous suffit donc de mettre notre paragraphe entre ces 
+                            deux balises et nous aurons enfin notre première vraie page web avec du texte !
+                            Je prends le même code qu’au chapitre précèdent.
+                        </p>
+                        <img src="images/enterp.jpg">
+                        <p>
+                            <strong>Sauter une ligne</strong><br>
+                            En HTML, si vous appuyez sur la touche Entrée  , 
+                            cela ne crée pas une nouvelle ligne comme vous en avez 
+                            l'habitude. Si vous faite ca, tous les codes s’affichera sur
+                            la meme ligne dans votre navigateur.
+
+                        </p>
+                        <p>
+                            Si vous faites un saut de ligne dans votre code html, il existe deux façon
+                            que vous pouvez faire ca.<br><br>
+                            La première façon , c’est d’utiliser plusieurs
+                            Paragraphe dans page, mais vous allez avoir 
+                            beaucoup de paragraphe dans votre Page.
+
+                            La deuxième méthode c’est d’utilise la balise &lt;br&gt;
+                            qui est une balise orpheline <br>
+                            qui signifie tout simplement BREAK. Voici 
+                            deux exemple de saut de ligne.
+                            <br><br>
+                            <strong>Le résultat se trouve a la figure suivante</strong><br>
+                            <img src="images/view.jpg">
+                            <strong>Saut de ligne avec la balise &lt;br&gt;  maintenant </strong><br>
+                            <strong>Le résultat se trouve a la figure suivante</strong><br>
+                            <img src="images/view.jpg">
+
+                        </p>
+                        
+                    </article>
+                </section>
+                <!--fin section chapitre 1-->
+
+                <!--text evaluation-->
+                <section id="a">
+                    <article id="gg">
+                        <div style="display: none;"></div>
+                        <div class="form">
+                            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+                                    onload="if(submitted) {
+                                        window.location='https://digitsmart.netlify.app/';}">
+                            </iframe> 
+                            
+                                 <!-- Update the Google forms URL in action-->
+                                <form class="form" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfRRQlHu4l2AMeaYWVWBd4sYPcw2DtP8b77U0lwH_e28OOAhQ/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
+                                <div class="question"> 
+                                    <label>Difference en un site statique et dynamique </label>
+                                    <input type="text" name="entry.274886968" required>
+                                </div>
+
+                                <div class="question"> 
+                                    <label>Différentes en un editeur de texte et traitement de texte</label>
+                                    <input type="text" name="entry.652618319" required>
+                                </div>
+
+                                <div class="question"> 
+                                    <label>Avec quel extention peut-on enregister une page html ?</label>
+                                    <input type="text" name="entry.1039343864" required>
+                                </div>
+
+                                <div class="question"> 
+                                    <label>C'est quoi un extention</label>
+                                    <input type="text" name="entry.1663912237" required>
+                                </div>
+
+                                <div class="question"> 
+                                    <label>Qu'est ce qu'un dossier ?</label>
+                                    <input type="text" name="entry.11105508" required>
+                                </div>
+
+                                <div class="question"> 
+                                    <label>Pourquoi utiliset-t-on DOCTYPE html ?</label>
+                                    <input type="text" name="entry.1549138381" required>
+                                </div>
+
+                                <div class="question"> 
+                                    <label>Comment faire un saut de ligne ?</label>
+                                    <input type="text" name="entry.1569532894" required>
+                                </div>
+
+                                <div class="question"> 
+                                    <label>Comment ajouter des paragraphe dans une page html ?</label>
+                                    <input type="text" name="entry.1103603638" required>
+                                </div>
+
+                                <div class="question"> 
+                                    <label>Definir html et css</label>
+                                    <input type="text" name="entry.315121237" required>
+                                </div>
+
+                                <div class="question"> 
+                                    <label>différentes entre balise TITLE et H1</label>
+                                    <input type="text" name="entry.1645245402" required>
+                                </div>
+                                <div><input type="submit" value="Envoyer vos reponses"></div>
+
+                            </form>
+                        </div>
                     </article>
                 </section>
                 <!--fin section chapitre 1-->
