@@ -30,9 +30,13 @@ li{
     margin: auto;
 
 }
+article h1{
+    color: blue;
+}
 article li{
     color: black;
     font-size: 12;
+    margin-left: 2px;
     display: inline;
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
@@ -177,6 +181,37 @@ section{
     animation: 2s;
    
 }
+#ff{
+    display: none;
+    margin: auto;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    width: 98%;
+    background-color: white;
+    border:2px solid rgb(3, 94, 136);
+    -webkit-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.85); 
+    box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.85);
+    transition: 1s ease;
+    animation: 2s;
+   
+}
+#ag{
+    display: none;
+}
+#form{
+    display: none;
+    margin: auto;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    width: 98%;
+    background-color: white;
+    border:2px solid rgb(3, 94, 136);
+    -webkit-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.85); 
+    box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.85);
+    transition: 1s ease;
+    animation: 2s;
+   
+}
 button:focus{
     background-color: blue;
 
@@ -207,6 +242,10 @@ button:focus{
 #point5{
     display: none;
 }
+#point6{
+    display: none;
+}
+
 
 article{
     width: 100%;
