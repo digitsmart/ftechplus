@@ -538,12 +538,11 @@
                 
             </script> 
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    var element = $('body');
-
-    <script>
-        Hammer(element).on("swipeleft", function() {
-    location.reload();
-}); 
-    </script>
+  <script type='text/javascript'>
+PullToRefresh.init({
+ mainElement: 'body',
+ onRefresh: function(){ window.location.reload(); }
+});
+</script>
     </body>
 </html>
