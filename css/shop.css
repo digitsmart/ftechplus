@@ -101,7 +101,10 @@ section{
     background-image: url("../images/background.jpg");
    
 }
-#aa{
+#n2{
+    display: none;
+}
+#aa, #nva{
     margin: auto;
     margin-top: 0.4em;
     margin-bottom: 0.4em;
@@ -115,7 +118,7 @@ section{
     
 }
 
-#bb{
+#bb, #nvb{
     display: none;
     margin: auto;
     margin-top: 0.4em;
@@ -195,20 +198,6 @@ section{
     animation: 2s;
    
 }
-#gg{
-    display: none;
-    margin: auto;
-    margin-top: 0.4em;
-    margin-bottom: 0.4em;
-    width: 98%;
-    background-color: white;
-    border:2px solid rgb(3, 94, 136);
-    -webkit-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.85); 
-    box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.85);
-    transition: 1s ease;
-    animation: 2s;
-   
-}
 #ag{
     display: none;
 }
@@ -244,7 +233,7 @@ button:focus{
     margin: 2px;
     height: 25px;
 }
-#point2{
+#point2, #pb{
     display: none;
 }
 #point3{
