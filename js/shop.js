@@ -342,3 +342,54 @@ function aa1() {
       question.style.display = "block";
     }
   }
+  function fin1() {
+    var h= document.getElementById("n1");
+    var i= document.getElementById("n2");
+    if (h.style.display === "none") {
+      h.style.display = "none";
+      i.style.display = "block";
+    
+    } else {
+      h.style.display = "none";
+      i.style.display = "block";
+    }
+  }
+
+  
+
+  /* Niveau 2 */
+  function btn1() {
+    var nv1 = document.getElementById("nva");
+    var nv2 = document.getElementById("nvb");
+    var paa = document.getElementById("pa");
+    var pab = document.getElementById("pb");
+    if (nv1.style.display === "none") {
+      nv1.style.display = "block";
+      nv2.style.display = "none";
+      paa.style.display = "block";
+      pab.style.display = "none";
+    } else {
+      nv1.style.display = "block";
+      nv2.style.display = "none";
+      paa.style.display = "block";
+      pab.style.display = "none";
+    }
+  } 
+
+  function btn2() {
+    var nv1 = document.getElementById("nva");
+    var nv2 = document.getElementById("nvb");
+    var paa = document.getElementById("pa");
+    var pab = document.getElementById("pb");
+    if (nv2.style.display === "none") {
+      nv2.style.display = "block";
+      nv1.style.display = "none";
+      paa.style.display = "none";
+      pab.style.display = "block";
+    } else {
+      nv2.style.display = "block";
+      nv1.style.display = "none";
+      paa.style.display = "none";
+      pab.style.display = "block";
+    }
+  } 
