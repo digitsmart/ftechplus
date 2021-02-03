@@ -361,35 +361,71 @@ function aa1() {
   function btn1() {
     var nv1 = document.getElementById("nva");
     var nv2 = document.getElementById("nvb");
+    var nv3 = document.getElementById("nvc");
     var paa = document.getElementById("pa");
     var pab = document.getElementById("pb");
+    var pac = document.getElementById("pc");
     if (nv1.style.display === "none") {
       nv1.style.display = "block";
       nv2.style.display = "none";
+      nv3.style.display = "none";
       paa.style.display = "block";
       pab.style.display = "none";
+      pac.style.display = "none";
     } else {
       nv1.style.display = "block";
       nv2.style.display = "none";
+      nv3.style.display = "none";
       paa.style.display = "block";
       pab.style.display = "none";
+      pac.style.display = "none";
     }
   } 
 
   function btn2() {
     var nv1 = document.getElementById("nva");
     var nv2 = document.getElementById("nvb");
+    var nv3 = document.getElementById("nvc");
     var paa = document.getElementById("pa");
     var pab = document.getElementById("pb");
+    var pac = document.getElementById("pc");
     if (nv2.style.display === "none") {
       nv2.style.display = "block";
       nv1.style.display = "none";
+      nv3.style.display = "none";
       paa.style.display = "none";
       pab.style.display = "block";
+      pac.style.display = "none";
     } else {
       nv2.style.display = "block";
       nv1.style.display = "none";
+      nv3.style.display = "none";
       paa.style.display = "none";
       pab.style.display = "block";
+      pac.style.display = "none";
     }
   } 
+
+  function btn3() {
+    var nv1 = document.getElementById("nva");
+    var nv2 = document.getElementById("nvb");
+    var nv3 = document.getElementById("nvc");
+    var paa = document.getElementById("pa");
+    var pab = document.getElementById("pb");
+    var pac = document.getElementById("pc");
+    if (nv3.style.display === "none") {
+      nv3.style.display = "block";
+      nv2.style.display = "none";
+      nv1.style.display = "none";
+      paa.style.display = "none";
+      pab.style.display = "none";
+      pac.style.display = "block";
+    } else {
+      nv3.style.display = "block";
+      nv2.style.display = "none";
+      nv1.style.display = "none";
+      paa.style.display = "none";
+      pab.style.display = "none";
+      pac.style.display = "block";
+    }
+  }

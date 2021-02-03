@@ -198,6 +198,16 @@ section{
     animation: 2s;
    
 }
+#gg{
+    display: none;
+
+}
+#gg button{
+    width: 100%;
+    background: blue;
+    color: white;
+    text-align: center;
+}
 #ag{
     display: none;
 }
@@ -233,7 +243,7 @@ button:focus{
     margin: 2px;
     height: 25px;
 }
-#point2, #pb{
+#point2, #pb, #pc{
     display: none;
 }
 #point3{
